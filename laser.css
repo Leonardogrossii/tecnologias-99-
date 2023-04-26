@@ -1,0 +1,252 @@
+body {
+   /*Corpo principal da página*/
+   margin: 0;
+   padding: 0px;
+   text-align: center;
+
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+/* Style the header */
+.header {
+   background-color: #DEB887;
+   padding: 1px;
+   text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+   display: flex;
+   justify-content: space-around;
+   border-top: 2px solid black;
+   overflow: hidden;
+   background-color: #DEB887;
+}
+
+/* Style the topnav links */
+.topnav a {
+   display: flex;
+   justify-content: space-around;
+   float: left;
+   color: #000000;
+   text-align: center;
+   padding: 14px 80px;
+   text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+   background-color: #ac7e46;
+   color: black;
+}
+
+@font-face {
+   font-family: 'Abel-regular';
+   src: url('fonts/Abel-Regular.ttf') format('truetype');
+   font-weight: normal;
+}
+
+.card-text {
+   margin: 0px 450px;
+   padding: 0;
+   text-align: center;
+   background-color: #CBAF92;
+   border-radius: 23px;
+}
+
+.perfil {
+   position: absolute;
+   top: 1%;
+   left: 95%;
+}
+
+.sino {
+   position: absolute;
+   top: 1%;
+   left: 97%;
+}
+
+.imagemlaser {
+   /*Tamanho da imagem*/
+
+   width: 400px;
+   height: 500px;
+}
+
+.titulo1 {
+   /*Laser Fracionado*/
+   font-size: 55px;
+   position: absolute;
+   top: 50%;
+   left: 42%;
+}
+
+.text p {
+   /* cor do fundo do texto principal*/
+   background-color: #CBAF92;
+   top: 115%;
+   left: 40%;
+   right: 10%;
+   text-align: justify;
+   width: 20%;
+   height: 10%;
+   border-radius: 5px;
+   font-size: 15px;
+}
+
+.text {
+   /* posicionamento do texto (centro)*/
+   display: flex;
+   justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* inicio do footer*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+footer {
+   background-color: #CBAF92;
+   padding: 50px 0;
+}
+
+.container-footer {
+   max-width: 1400px;
+   padding: 0 4%;
+   margin: auto;
+}
+
+.row-footer {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-col {
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col h4 {
+   font-size: 22px;
+   color: rgb(0, 0, 0);
+   margin-bottom: 20px;
+   font-weight: 500;
+   position: relative;
+   text-transform: uppercase;
+}
+
+.footer-col ul {
+   list-style: none;
+}
+
+.footer-col ul li {
+   margin: 10px 0;
+}
+
+.footer-col ul li a {
+   font-size: 16px;
+   text-transform: capitalize;
+   color: white;
+   text-decoration: none;
+   font-weight: 300;
+   display: block;
+   transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+   color: #cecdcd;
+   padding-left: 10px;
+}
+
+.footer-col .medias-socias {
+   margin-top: 30px;
+}
+
+.footer-col .medias-socias a {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   height: 40px;
+   width: 40px;
+   margin: 0 10px 10px 0;
+   text-decoration: none;
+   border-radius: 50%;
+   color: white;
+   border: 1px solid white;
+   transition: all 0.5s ease;
+}
+
+.footer-col .medias-socias a i {
+   font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover {
+   color: #415aca;
+   background-color: white;
+}
+
+.footer-col .form-sub input {
+   width: 100%;
+   padding: 10px;
+   font-size: 15px;
+   outline: none;
+   border: 1px solid white;
+   color: white;
+   background-color: #415aca;
+}
+
+.footer-col .form-sub input::placeholder {
+   color: white;
+}
+
+.footer-col .form-sub button {
+   width: 100%;
+   margin-top: 10px;
+   padding: 10px;
+   font-size: 17px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   color: #415aca;
+   border-radius: 3px;
+   font-weight: bold;
+   background-color: white;
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+   .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+   }
+}
+
+@media (max-width:600px) {
+   .footer-col {
+      width: 100%;
+   }
+}
+
+.socias {
+   position: absolute;
+   top: 155%;
+   left: 50%;
+}
+
+.socias1 {
+   position: absolute;
+   top: 155%;
+   left: 47%;
+}

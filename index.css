@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #DEB887;
+    padding: 1px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    border-top: 2px solid black;
+    overflow: hidden;
+    background-color: #DEB887;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    justify-content: space-around;
+    float: left;
+    display: fle;
+    color: #000000;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ac7e46;
+    color: black;
+  }
+  
+  @font-face {
+    font-family: 'Abel-regular';
+    src: url('fonts/Abel-Regular.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  
